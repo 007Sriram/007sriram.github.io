@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
@@ -38,6 +38,24 @@
       color: white;
       margin-top: 40px;
     }
+
+    /* 🍕 ORDER BUTTON STYLE */
+    .order-btn {
+      display: inline-block;
+      background: #d62828;
+      color: white;
+      padding: 15px 25px;
+      margin-top: 20px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .order-btn:hover {
+      background: #a61e1e;
+      transform: scale(1.05);
+    }
   </style>
 
   <!-- Meta Pixel Code -->
@@ -53,6 +71,12 @@
   fbq('init', '1201265835064535');
   fbq('track', 'PageView');
   </script>
+
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1201265835064535&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
 
 </head>
 
