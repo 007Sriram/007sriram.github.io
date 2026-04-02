@@ -9,6 +9,12 @@ Welcome to **Pizza Paradise** — your ultimate guide to delicious pizza!
 
 ---
 
+## 📞 Order Your Pizza
+
+<a href="https://example.com/order" class="order-btn">🍕 Order Now</a>
+
+---
+
 ## 🧀 About Pizza
 Pizza is one of the most popular foods in the world. It originated in **Italy** and has become a global favorite with countless variations.
 
