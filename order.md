@@ -1,47 +1,35 @@
 ---
 layout: default
 title: Order Pizza
+permalink: /order.html
 ---
 
 # 🍕 Order Your Pizza
 
-Welcome to the **Pizza Paradise ordering page**!
+Choose your favorite pizza and place your order!
 
 ---
 
-## 🍕 Choose Your Pizza
-
-### Margherita - $8  
-Classic cheese & tomato
-
-### Pepperoni - $10  
-Loaded with pepperoni
-
-### Hawaiian - $9  
-Ham & pineapple
-
----
-
-## 🛒 Place Your Order
+## 🛒 Order Form
 
 <form>
-  <label>Your Name:</label><br>
-  <input type="text" name="name" required><br><br>
+  <label>Your Name:</label>
+  <input type="text" name="name" required>
 
-  <label>Select Pizza:</label><br>
+  <label>Select Pizza:</label>
   <select name="pizza">
     <option>Margherita</option>
     <option>Pepperoni</option>
     <option>Hawaiian</option>
-  </select><br><br>
+  </select>
 
-  <label>Quantity:</label><br>
-  <input type="number" value="1" min="1"><br><br>
+  <label>Quantity:</label>
+  <input type="number" value="1" min="1">
 
+  <br><br>
   <button type="submit" class="order-btn">✅ Place Order</button>
 </form>
 
 ---
 
-## 📞 Contact
-We’ll confirm your order via email!
+<a href="{{ '/' | relative_url }}" class="order-btn">⬅ Back to Home</a>
