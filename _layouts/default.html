@@ -4,6 +4,42 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
 
+  <!-- 🍕 Simple Pizza Style -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff5e6;
+      color: #333;
+      margin: 0;
+    }
+    header {
+      background: #d62828;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #d62828;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f77f00;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+
   <!-- Meta Pixel Code -->
   <script>
   !function(f,b,e,v,n,t,s)
@@ -17,15 +53,22 @@
   fbq('init', '1201265835064535');
   fbq('track', 'PageView');
   </script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1201265835064535&ev=PageView&noscript=1"/>
-  </noscript>
-  <!-- End Meta Pixel Code -->
 
 </head>
 
 <body>
+
+<header>
+  🍕 Pizza Paradise
+</header>
+
+<main>
   {{ content }}
+</main>
+
+<footer>
+  Made with ❤️ and lots of cheese
+</footer>
+
 </body>
 </html>
