@@ -1,25 +1,9 @@
 ---
-layout: default
-title: Pizza Paradise
----
-
 ---
 layout: default
 title: Pizza Paradise
 ---
-title: Pizza Paradise
-description: "Your ultimate guide to delicious pizza"
-baseurl: ""
-url: "https://007sriram.github.io"
 
-remote_theme: pages-themes/modernist@v0.2.0
-plugins:
-  - jekyll-remote-theme
-# 🍕 Pizza Paradise
-
-Welcome to Pizza Paradise — your ultimate guide to delicious pizza!
-...
-# 007sriram.github.io
 # 🍕 Pizza Paradise
 
 Welcome to **Pizza Paradise** — your ultimate guide to delicious pizza!
@@ -65,9 +49,7 @@ Sweet + savory combo (controversial 😄)
 ---
 
 ## 📞 Contact Us
-Want to talk about pizza?
-
-- Email: pizza@example.com
+- Email: pizza@example.com  
 - Instagram: @pizzaparadise
 
 ---
